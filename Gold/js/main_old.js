@@ -284,6 +284,7 @@ window.addEventListener("DOMContentLoaded",function(){
     }
 
     function saveData(key){
+
         if(!key){
             var userID = Math.floor(Math.random()*100001);
 

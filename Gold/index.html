@@ -59,7 +59,7 @@
 
     <div  data-role="content" class="ui-icon-alt">
         <div data-id='CTA'>
-            <a href="addItem.html" id="ctaImg" data-role="button" data-theme="a"><img src="images/Races.png"></a>
+            <a href="#addItem" id="ctaImg" data-role="button" data-theme="a"><img src="images/Races.png"></a>
 
         </div>
 
@@ -121,7 +121,7 @@
 
             <ul>
                 <li><a href="#about" data-icon="info" data-role="button">About</a></li>
-                <li><a href="addItem.html" data-icon='star' data-role="button">New Sheet</a></li>
+                <li><a href="#addItem" data-icon='star' data-role="button">New Sheet</a></li>
 
                 <li><a href="#home" data-icon='home' data-role="button" class='ui-btn-active ui-state-persist'>Home</a></li>
 
@@ -170,7 +170,7 @@
 
             <ul>
                 <li><a href="#about" data-icon="info" data-role="button">About</a></li>
-                <li><a href="addItem.html" data-icon='star' data-role="button">New Sheet</a></li>
+                <li><a href="#addItem" data-icon='star' data-role="button">New Sheet</a></li>
                 <li><a href="#home" data-icon='home' data-role="button">Home</a></li>
             </ul>
 
@@ -212,7 +212,7 @@
 
             <ul>
                 <li><a href="#about" data-icon="info" data-role="button" class='ui-btn-active ui-state-persist'>About</a></li>
-                <li><a href="addItem.html" data-icon='star' data-role="button">New Sheet</a></li>
+                <li><a href="#addItem" data-icon='star' data-role="button">New Sheet</a></li>
 
                 <li><a href="#home" data-icon='home' data-role="button" >Home</a></li>
 
@@ -247,7 +247,7 @@
 
             <ul>
                 <li><a href="#about" data-icon="info" data-role="button">About</a></li>
-                <li><a href="addItem.html" data-icon='star' data-role="button">New Sheet</a></li>
+                <li><a href="#addItem" data-icon='star' data-role="button">New Sheet</a></li>
 
                 <li><a href="#home" data-icon='home' data-role="button">Home</a></li>
 
@@ -261,7 +261,6 @@
 </div>
 
 <!-- Begin newsfeed "page"-->
-
 <div data-role="page" id="newsfeed">
 
     <div data-role="header">
@@ -298,7 +297,7 @@
 
             <ul>
                 <li><a href="#about" data-icon="info" data-role="button">About</a></li>
-                <li><a href="addItem.html" data-icon='star' data-role="button">New Sheet</a></li>
+                <li><a href="#addItem" data-icon='star' data-role="button">New Sheet</a></li>
 
                 <li><a href="#home" data-icon='home' data-role="button">Home</a></li>
 
@@ -308,6 +307,38 @@
         </div>
         <!-- Closing "footer" -->
     </div>
+
+</div>
+
+<div data-role="page" id="addItem" data-theme="e">
+
+    <div data-role="header">
+        <h1>Add a Character</h1>
+    </div>
+
+    <div data-role="content" >
+<h3>BASIC INFO:</h3>
+        <div data-role="fieldcontain" >
+            <label for="CharDate">Creation Date</label>
+            <input name="CharDate" data-role="date" id="CharDate" type="text" data-theme="b">
+        </div>
+        <div data-role="fieldcontain">
+            <label for="CharName">Character Name</label>
+            <input name="CharName" placeholder="Enter your characters name here" id="CharName" type="text" data-theme="b">
+        </div>
+        <!--
+        <div data-role="fieldcontain">
+            <label for="CharRace"  class="select">Character Race</label>
+            <select name='CharRace' id="CharRace">
+                <option value='Dwarf'>Dwarf</option>
+                <option value='Elf'>Elf</option>
+                <option value='Half-Orc'>Half-Orc</option>
+                <option value='Human'>Human</option>
+            </select>
+        </div>
+-->
+    </div>
+
 
 </div>
 
