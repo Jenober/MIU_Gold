@@ -86,6 +86,7 @@ window.addEventListener("DOMContentLoaded",function(){
 
 //Find radio button value
     function getRadio(){
+
         var rdoButtons = document.forms[0].sex;
         for (var i=0; i < rdoButtons.length; i++){
             if(rdoButtons[i].checked){
@@ -408,18 +409,6 @@ window.addEventListener("DOMContentLoaded",function(){
 
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 });

@@ -2,7 +2,7 @@
 <!-- Houston Bennett -->
 <!-- d20 Inspired Character Sheet Archive -->
 <!-- Term 1303 -->
-<html>
+<html xmlns="http://www.w3.org/1999/html">
     <!-- Document Header -->
     <head>
 
@@ -121,7 +121,7 @@
 
             <ul>
                 <li><a href="#about" data-icon="info" data-role="button">About</a></li>
-                <li><a href="#addItem" data-icon='star' data-role="button">New Sheet</a></li>
+                <li><a href="#addNew" data-icon='star' data-role="button">New Sheet</a></li>
 
                 <li><a href="#home" data-icon='home' data-role="button" class='ui-btn-active ui-state-persist'>Home</a></li>
 
@@ -170,7 +170,7 @@
 
             <ul>
                 <li><a href="#about" data-icon="info" data-role="button">About</a></li>
-                <li><a href="#addItem" data-icon='star' data-role="button">New Sheet</a></li>
+                <li><a href="#addNew" data-icon='star' data-role="button">New Sheet</a></li>
                 <li><a href="#home" data-icon='home' data-role="button">Home</a></li>
             </ul>
 
@@ -212,7 +212,7 @@
 
             <ul>
                 <li><a href="#about" data-icon="info" data-role="button" class='ui-btn-active ui-state-persist'>About</a></li>
-                <li><a href="#addItem" data-icon='star' data-role="button">New Sheet</a></li>
+                <li><a href="#addNew" data-icon='star' data-role="button">New Sheet</a></li>
 
                 <li><a href="#home" data-icon='home' data-role="button" >Home</a></li>
 
@@ -247,7 +247,7 @@
 
             <ul>
                 <li><a href="#about" data-icon="info" data-role="button">About</a></li>
-                <li><a href="#addItem" data-icon='star' data-role="button">New Sheet</a></li>
+                <li><a href="#addNew" data-icon='star' data-role="button">New Sheet</a></li>
 
                 <li><a href="#home" data-icon='home' data-role="button">Home</a></li>
 
@@ -297,7 +297,7 @@
 
             <ul>
                 <li><a href="#about" data-icon="info" data-role="button">About</a></li>
-                <li><a href="#addItem" data-icon='star' data-role="button">New Sheet</a></li>
+                <li><a href="#addNew" data-icon='star' data-role="button">New Sheet</a></li>
 
                 <li><a href="#home" data-icon='home' data-role="button">Home</a></li>
 
@@ -310,50 +310,108 @@
 
 </div>
 
-<div data-role="page" id="addItem" data-theme="e">
-
+<div data-role="page" id="addNew" data-id='addNew'>
     <div data-role="header">
         <h1>Add a Character</h1>
+        <p><br>Create and save your character sheet</p>
+
     </div>
 
-    <div data-role="content" >
-<h3>BASIC INFO:</h3>
-        <div data-role="fieldcontain" >
+    <div data-role="content" data-theme="e">
+
+        <h2>BASIC INFO</h2>
+<form action="" method="post" id="addCharForm">
+<fieldset>
             <label for="CharDate">Creation Date</label>
-            <input name="CharDate" data-role="date" id="CharDate" type="text" data-theme="b">
+            <input id="CharDate" name="CharDate" type="date" data-theme="b" class='date'>
+
+
+            <label for="CharName">Character Name (Required)</label>
+            <input id="CharName" name="CharName" type="text" data-theme="b" class='required'>
+
+        <div class='ui-grid-a'>
+            <div class="ui-block-a">
+                <label for="CharRace">Character Race</label>
+                <select name="CharRace" id="CharRace" data-theme="a">
+                    <option value="Dwarf">Dwarf</option>
+                    <option value="Elf">Elf</option>
+                    <option value="Half-Orc">Half-Orc</option>
+                    <option value="Human">Human</option>
+                </select>
+            </div>
+
+            <div class="ui-block-b">
+                <label for="CharSize">Character Size</label>
+                <select name="CharSize" id="CharSize" data-theme="a">
+                    <option value="Tiny">Tiny</option>
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <option value="Giant">Giant</option>
+
+                </select>
+            </div>
         </div>
-        <div data-role="fieldcontain">
-            <label for="CharName">Character Name</label>
-            <input name="CharName" placeholder="Enter your characters name here" id="CharName" type="text" data-theme="b">
-        </div>
+
+                <!--
+                <label for="CharAge">Character Age</label>
+                <input name="CharAge" id="CharAge" min="0" max="1000" type="range" data-theme="a">
+                -->
+</fieldset>
 
         <div data-role="fieldcontain">
-            <label for="CharRace"  class="select">Character Race</label>
-            <select name='CharRace' id="CharRace">
-                <option value='Dwarf'>Dwarf</option>
-                <option value='Elf'>Elf</option>
-                <option value='Half-Orc'>Half-Orc</option>
-                <option value='Human'>Human</option>
-            </select>
+
+            <fieldset data-role="controlgroup" data-type="horizontal" data-theme="a">
+                <legend>Gender</legend>
+                <input name="RdoGender" id="RdoMale" value="Male" type="radio" data-theme="a" checked='checked'>
+                <label for="RdoMale">Male</label>
+                <input name="RdoGender" id="RdoFemale" value="Female" type="radio" data-theme="a">
+                <label for="RdoFemale">Female</label>
+                <input name="RdoGender" id="RdoOther" value="Other" type="radio" data-theme="a">
+                <label for="RdoOther">Other</label>
+            </fieldset>
         </div>
 
-    </div>
 
+        <h2>ATTRIBUTES</h2>
+        <p>All attributes are required and need to be numbers!</p>
+        <fieldset>
+            <label for="CharStr">Strength</label>
+            <input id="CharStr" name="CharStr" type="number" data-theme="b" class='required'>
+            <label for="CharCon">Constitution</label>
+            <input id="CharCon" name="CharCon" type="number" data-theme="b" class='required'>
+            <label for="CharDex">Dexterity</label>
+            <input id="CharDex" name="CharDex" type="number" data-theme="b" class='required'>
+            <label for="CharInt">Intelligence</label>
+            <input id="CharInt" name="CharInt" type="number" data-theme="b" class='required'>
+            <label for="CharWis">Wisdom</label>
+            <input id="CharWis" name="CharWis" type="number" data-theme="b" class='required'>
+            <label for="CharCha">Charisma</label>
+            <input id="CharCha" name="CharCha" type="number" data-theme="b" class='required'>
+        </fieldset>
+
+        <input type="submit" value="Save Sheet" data-inline="true" data-theme="a">
+        <input type="reset" value="Clear Sheet" data-inline="true" data-mini="true" data-theme="b">
+</form>
+    </div><!-- /content -->
 
 </div>
+
+
+
 
 
         <!-- Call JavaScript file -->
         <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
         <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+        <script src="js/libs/jquery.validate.js"></script>
         <script src='js/main.js' type="text/javascript"></script>
 
 
 
-    </div>
 
 
 
-    </body>
+</body>
 
 </html>
