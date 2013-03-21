@@ -59,7 +59,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="229" column="58" selection-start="6717" selection-end="6717" vertical-scroll-proportion="0.51386625">
+            <state line="229" column="58" selection-start="6717" selection-end="6717" vertical-scroll-proportion="0.6454918">
               <folding>
                 <element signature="tag#head#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -90,9 +90,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="290" />
-    <option name="y" value="29" />
+    <option name="y" value="22" />
     <option name="width" value="1096" />
-    <option name="height" value="798" />
+    <option name="height" value="673" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -168,7 +168,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="290" y="29" width="1096" height="798" extended-state="0" />
+    <frame x="290" y="22" width="1096" height="673" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -364,7 +364,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="229" column="58" selection-start="6717" selection-end="6717" vertical-scroll-proportion="0.51386625">
+        <state line="229" column="58" selection-start="6717" selection-end="6717" vertical-scroll-proportion="0.6454918">
           <folding>
             <element signature="tag#head#0;tag#html#0" expanded="false" />
             <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
