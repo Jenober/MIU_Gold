@@ -59,7 +59,7 @@
 
     <div  data-role="content" class="ui-icon-alt">
         <div data-id='CTA'>
-            <a href="#addItem" id="ctaImg" data-role="button" data-theme="a"><img src="images/Races.png"></a>
+            <a href="#addNew" id="ctaImg" data-role="button" data-theme="a"><img src="images/Races.png"></a>
 
         </div>
 
@@ -192,8 +192,8 @@
     <div data-role="content" class="ui-icon-alt">
 
             <a href='https://github.com/Jenober/MiU_Site.git' rel="external" data-role="button">View Source @ GitHub</a>
-            <a href='jenober.github.com/MIU_Gold/Gold/' data-role="button">Gold App</a>
-            <a href='jenober.github.com/MIU_Gold/Bronze/' data-role="button">Bronze App</a>
+            <a href='http://jenober.github.com/MIU_Gold/Gold/' data-role="button">Gold App</a>
+            <a href='http://jenober.github.com/MIU_Gold/Bronze/' data-role="button">Bronze App</a>
 
         <br>
         <p> This web app was created by Houston Bennett with assistance from jQueryMobile.com, lynda.com,
@@ -301,16 +301,20 @@
 
 <div data-role="page" id="addNew" data-id='addNew'>
     <div data-role="header">
-        <h1>Add a Character</h1>
-        <p><br>Create and save your character sheet</p>
-
+        <p><a href='#home' data-role="button">Home</a>
+        </p>
     </div>
 
     <div data-role="content" data-theme="e">
 
+       <div data-role="fieldcontain">
+           <h1>Add a Character</h1>
+            <p>Create and save your character sheet</p>
+       </div>
         <h2>BASIC INFO</h2>
-<form action="" method="post" id="addCharForm">
-<fieldset>
+
+    <form action="" method="post" id="addCharForm">
+    <fieldset>
             <label for="CharDate">Creation Date</label>
             <input id="CharDate" name="CharDate" type="date" data-theme="b" class='date'>
 
@@ -346,7 +350,7 @@
                 <label for="CharAge">Character Age</label>
                 <input name="CharAge" id="CharAge" min="0" max="1000" type="range" data-theme="a">
                 -->
-</fieldset>
+    </fieldset>
 
         <div data-role="fieldcontain">
 
