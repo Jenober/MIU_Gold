@@ -300,9 +300,10 @@
 </div>
 
 <div data-role="page" id="addNew" data-id='addNew'>
-    <div data-role="header">
-        <p><a href='#home' data-role="button">Home</a>
-        </p>
+
+    <div data-role="header" data-position="fixed">
+        <h1><a href='#home' data-role="button">Return to Home</a>
+        </h1>
     </div>
 
     <div data-role="content" data-theme="e">
@@ -316,15 +317,15 @@
     <form action="" method="post" id="addCharForm">
     <fieldset>
             <label for="CharDate">Creation Date</label>
-            <input id="CharDate" name="CharDate" type="date" data-theme="b" class='date'>
+            <input id="CharDate" name="CharDate" type="date" data-theme="b" class='date' placeholder="12/12/12">
 
 
             <label for="CharName">Character Name (Required)</label>
-            <input id="CharName" name="CharName" type="text" data-theme="b" class='required'>
+            <input id="CharName" name="CharName" type="text" data-theme="b" class='required' placeholder="Your character's name should go here!">
 
         <div class='ui-grid-a'>
             <div class="ui-block-a">
-                <label for="CharRace">Character Race</label>
+                <label for="CharRace" class='select'>Character Race</label>
                 <select name="CharRace" id="CharRace" data-theme="a">
                     <option value="Dwarf">Dwarf</option>
                     <option value="Elf">Elf</option>
@@ -334,7 +335,7 @@
             </div>
 
             <div class="ui-block-b">
-                <label for="CharSize">Character Size</label>
+                <label for="CharSize" class='select'>Character Size</label>
                 <select name="CharSize" id="CharSize" data-theme="a">
                     <option value="Tiny">Tiny</option>
                     <option value="Small">Small</option>
