@@ -29,11 +29,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addItem.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="addItem.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addItem.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="24" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="63" column="97" selection-start="2590" selection-end="2590" vertical-scroll-proportion="0.33606556">
+              <folding>
+                <element signature="tag#head#0;tag#html#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,10 +58,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="229" column="58" selection-start="6717" selection-end="6717" vertical-scroll-proportion="0.6454918">
+            <state line="229" column="58" selection-start="6717" selection-end="6717" vertical-scroll-proportion="-13.125">
               <folding>
                 <element signature="tag#head#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -80,11 +82,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/addItem.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/js/json.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/addItem.html" />
       </list>
     </option>
   </component>
@@ -278,7 +280,9 @@
     <entry file="file://$PROJECT_DIR$/addItem.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="0" selection-start="1733" selection-end="1733" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="tag#head#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -311,7 +315,9 @@
     <entry file="file://$PROJECT_DIR$/addItem.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="86" column="17" selection-start="3859" selection-end="3859" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="tag#head#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -355,21 +361,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addItem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="24" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="229" column="58" selection-start="6717" selection-end="6717" vertical-scroll-proportion="0.6454918">
+        <state line="229" column="58" selection-start="6717" selection-end="6717" vertical-scroll-proportion="-13.125">
           <folding>
             <element signature="tag#head#0;tag#html#0" expanded="false" />
             <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addItem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="97" selection-start="2590" selection-end="2590" vertical-scroll-proportion="0.33606556">
+          <folding>
+            <element signature="tag#head#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
