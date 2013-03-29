@@ -29,13 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addItem.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="addItem.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addItem.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="97" selection-start="2590" selection-end="2590" vertical-scroll-proportion="0.33606556">
-              <folding>
-                <element signature="tag#head#0;tag#html#0" expanded="false" />
-              </folding>
+            <state line="63" column="97" selection-start="2590" selection-end="2590" vertical-scroll-proportion="-30.625">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,15 +56,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="229" column="58" selection-start="6717" selection-end="6717" vertical-scroll-proportion="-13.125">
+            <state line="103" column="80" selection-start="3267" selection-end="3267" vertical-scroll-proportion="0.5163934">
               <folding>
                 <element signature="tag#head#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#3;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#4;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#5;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#6;tag#body#0;tag#html#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -85,14 +88,14 @@
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/js/json.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/addItem.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="290" />
-    <option name="y" value="22" />
+    <option name="x" value="163" />
+    <option name="y" value="39" />
     <option name="width" value="1096" />
     <option name="height" value="673" />
   </component>
@@ -141,6 +144,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bennett_Houston_Project2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bronze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bennett_Houston_Project2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bronze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -170,13 +201,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="290" y="22" width="1096" height="673" extended-state="0" />
+    <frame x="163" y="39" width="1096" height="673" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20969245" sideWeight="0.6706056" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21062441" sideWeight="0.6706056" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293944" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -263,9 +294,14 @@
         <state line="2" column="4" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="tag#head#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#3;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#4;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#5;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#6;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -280,9 +316,7 @@
     <entry file="file://$PROJECT_DIR$/addItem.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="0" selection-start="1733" selection-end="1733" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="tag#head#0;tag#html#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -298,9 +332,14 @@
         <state line="2" column="4" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="tag#head#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#3;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#4;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#5;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#6;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -315,9 +354,7 @@
     <entry file="file://$PROJECT_DIR$/addItem.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="86" column="17" selection-start="3859" selection-end="3859" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="tag#head#0;tag#html#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -333,9 +370,14 @@
         <state line="2" column="4" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="tag#head#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#3;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#4;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#5;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#6;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -361,23 +403,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/addItem.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="229" column="58" selection-start="6717" selection-end="6717" vertical-scroll-proportion="-13.125">
-          <folding>
-            <element signature="tag#head#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
+        <state line="63" column="97" selection-start="2590" selection-end="2590" vertical-scroll-proportion="-30.625">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addItem.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="97" selection-start="2590" selection-end="2590" vertical-scroll-proportion="0.33606556">
+        <state line="103" column="80" selection-start="3267" selection-end="3267" vertical-scroll-proportion="0.5163934">
           <folding>
             <element signature="tag#head#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#3;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#4;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#5;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#6;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>

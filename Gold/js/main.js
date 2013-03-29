@@ -1,13 +1,8 @@
-$(document).bind('pageinit',function(){
-
-    var CharForm = $('#addCharForm');
-    CharForm.validate();
-
-});
 
 $('#home').on('pageinit', function(){
 	//code needed for home page goes here
-
+    var CharForm = $('#addCharForm');
+    CharForm.validate();
 
 
 });	

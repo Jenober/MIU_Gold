@@ -37,9 +37,9 @@
         <title>Houston's d20 Inspired Character Archive!</title>
 
         <!-- Import CSS Styles -->
-       <!-- <link href="css/styles.css" rel="stylesheet" type="text/css" />-->
-
-        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+      <!-- <link href="css/styles.css" rel="stylesheet" type="text/css" />-->
+        <link rel='stylesheet' href="css/Custom_theme.css" />
+        <link rel="stylesheet" href="css/jquery.mobile.structure-1.3.0.min.css" />
 
 
     </head>
@@ -48,10 +48,10 @@
     <body id="index">
 
 
-<div data-role="page" data-id="home" id="home" data-theme="e">
+<div data-role="page" data-id="home" id="home" data-theme="a">
 
-    <div id="header" data-role="header" data-position="fixed">
-        <p></p>
+    <div data-role="header" data-position="fixed">
+        <p><a href='#home' data-role="button">d20 Character Archive</a></p>
 
     </div>
 
@@ -59,17 +59,17 @@
 
     <div  data-role="content" class="ui-icon-alt">
         <div data-id='CTA'>
-            <a href="#addNew" id="ctaImg" data-role="button" data-theme="a"><img src="images/Races.png"></a>
+            <a href="#addNew" id="ctaImg" data-role="button"><img src="images/Races.png"></a>
 
         </div>
 
         <h2>Browse By:</h2>
             <!-- A to Z link button -->
 
-                <ul data-role="listview" data-inset='true' data-theme="a">
+                <ul data-role="listview" data-inset='true' >
 
                     <li>
-                        <a href="#broke" data-icon="arrow-r" >
+                        <a href="#broke"  >
                             <img src="images/list bullets.png" class="ui-li-icon">A to Z
                         </a>
                     </li>
@@ -77,10 +77,10 @@
 
 
             <!-- Char Size collapsible list -->
-            <div data-role="collapsible" data-theme="a" data-iconpos="right">
+            <div data-role="collapsible"  data-iconpos="right">
                 <h2><img src="images/Cursor%20H%20split.png" class="ui-li-icon"> Size:</h2>
 
-                    <ul data-role="listview"  data-filter='true' data-filter-placeholder='Filter Sizes...' data-theme="a">
+                    <ul data-role="listview" data-filter='true' data-filter-placeholder='Filter Sizes...'>
 
                         <li><a href='#sortTiny'>Tiny</a></li>
                         <li><a href='#sortSmall'>Small</a></li>
@@ -93,7 +93,7 @@
             </div>
 
             <!-- Char Class collapsible list -->
-            <div data-role="collapsible" data-theme="a" data-iconpos="right">
+            <div data-role="collapsible" data-iconpos="right">
                 <h2><img src="images/swords.png" class="ui-li-icon">    Class:</h2>
                 <ul data-role="listview">
 
@@ -102,7 +102,7 @@
                 </ul>
             </div>
 
-        <ul data-role="listview" data-inset='true' data-theme="a">
+        <ul data-role="listview" data-inset='true' >
 
             <li>
                 <a href="#newest"><img src="images/Time machine.png" class='ui-li-icon'>Newest</a>
@@ -138,20 +138,18 @@
 
 <!-- Begin newest "page" -->
 
-<div data-role="page" id="newest" data-theme="e">
+<div data-role="page" id="newest" data-theme="a">
 
-    <div data-role="header">
-        <p>
-            <h1>Newest Character<br> Sheets</h1>
-        </p>
+    <div data-role="header" data-position="fixed">
+        <p><a href='#home' data-role="button">d20 Character Archive</a></p>
 
     </div>
 
     <div data-role="content" class="ui-icon-alt" >
-
+<h1>Newest Sheets</h1>
         <div>
 
-            <ul data-role="listview" data-inset='true' data-theme="a">
+            <ul data-role="listview" data-inset='true' >
                 <li><a href='#newsfeed'>Today</a></li>
                 <li><a href='#broke'>This Week</a></li>
                 <li><a href='#broke'>This Month</a></li>
@@ -183,12 +181,13 @@
 
 <!-- Begin about "page"-->
 
-<div data-role="page" data-id='about' id="about" data-theme="e">
+<div data-role="page" data-id='about' id="about" data-theme="a">
 
-    <div data-role="header">
-        <h2>About</h2>
+    <div data-role="header" data-position="fixed">
+        <p><a href='#home' data-role="button">d20 Character Archive</a></p>
+
     </div>
-
+    <h1>About</h1>
     <div data-role="content" class="ui-icon-alt">
 
             <a href='https://github.com/Jenober/MiU_Site.git' rel="external" data-role="button">View Source @ GitHub</a>
@@ -222,7 +221,7 @@
 </div>
 
 <!-- Begin 404 "page"-->
-<div data-role="page" data-id='broke' id="broke" data-theme="e">
+<div data-role="page" data-id='broke' id="broke" data-theme="a">
 
     <div data-role="header">
 <p><h2>Page Not Found</h2></p>
@@ -253,7 +252,7 @@
 </div>
 
 <!-- Begin newsfeed "page"-->
-<div data-role="page" id="newsfeed">
+<div data-role="page" id="newsfeed" data-theme="a">
 
     <div data-role="header">
         <h2>Today</h2>
@@ -299,34 +298,35 @@
 
 </div>
 
-<div data-role="page" id="addNew" data-id='addNew'>
+<div data-role="page" id="addNew" data-id='addNew' data-theme="a">
 
     <div data-role="header" data-position="fixed">
-        <h1><a href='#home' data-role="button">Return to Home</a>
-        </h1>
+        <p><a href='#home' data-role="button">d20 Character Archive</a></p>
+
+
     </div>
 
-    <div data-role="content" data-theme="e">
+    <div data-role="content">
 
        <div data-role="fieldcontain">
-           <h1>Add a Character</h1>
-            <p>Create and save your character sheet</p>
+            <h1>Add a Character</h1>
+            <h4>Create and save your character sheet</h4>
        </div>
         <h2>BASIC INFO</h2>
 
     <form action="" method="post" id="addCharForm">
     <fieldset>
             <label for="CharDate">Creation Date</label>
-            <input id="CharDate" name="CharDate" type="date" data-theme="b" class='date' placeholder="12/12/12">
+            <input data-theme="b" id="CharDate" name="CharDate" type="date"  class='date' placeholder="12/12/12">
 
 
             <label for="CharName">Character Name (Required)</label>
-            <input id="CharName" name="CharName" type="text" data-theme="b" class='required' placeholder="Your character's name should go here!">
+            <input data-theme="b" id="CharName" name="CharName" type="text"  class='required' placeholder="Your character's name should go here!">
 
         <div class='ui-grid-a'>
             <div class="ui-block-a">
                 <label for="CharRace" class='select'>Character Race</label>
-                <select name="CharRace" id="CharRace" data-theme="a">
+                <select name="CharRace" id="CharRace" >
                     <option value="Dwarf">Dwarf</option>
                     <option value="Elf">Elf</option>
                     <option value="Half-Orc">Half-Orc</option>
@@ -336,7 +336,7 @@
 
             <div class="ui-block-b">
                 <label for="CharSize" class='select'>Character Size</label>
-                <select name="CharSize" id="CharSize" data-theme="a">
+                <select name="CharSize" id="CharSize" >
                     <option value="Tiny">Tiny</option>
                     <option value="Small">Small</option>
                     <option value="Medium">Medium</option>
@@ -355,37 +355,37 @@
 
         <div data-role="fieldcontain">
 
-            <fieldset data-role="controlgroup" data-type="horizontal" data-theme="a">
+            <fieldset data-role="controlgroup" data-type="horizontal">
                 <legend>Gender</legend>
-                <input name="RdoGender" id="RdoMale" value="Male" type="radio" data-theme="a" checked='checked'>
+                <input name="RdoGender" id="RdoMale" value="Male" type="radio"  checked='checked'>
                 <label for="RdoMale">Male</label>
-                <input name="RdoGender" id="RdoFemale" value="Female" type="radio" data-theme="a">
+                <input name="RdoGender" id="RdoFemale" value="Female" type="radio" >
                 <label for="RdoFemale">Female</label>
-                <input name="RdoGender" id="RdoOther" value="Other" type="radio" data-theme="a">
+                <input name="RdoGender" id="RdoOther" value="Other" type="radio" >
                 <label for="RdoOther">Other</label>
             </fieldset>
         </div>
 
 
         <h2>ATTRIBUTES</h2>
-        <p>All attributes are required and need to be numbers!</p>
+        <p>**All attributes are required and need to be numbers!**</p>
         <fieldset>
-            <label for="CharStr">Strength</label>
-            <input id="CharStr" name="CharStr" type="number" data-theme="b" class='required'>
-            <label for="CharCon">Constitution</label>
-            <input id="CharCon" name="CharCon" type="number" data-theme="b" class='required'>
-            <label for="CharDex">Dexterity</label>
-            <input id="CharDex" name="CharDex" type="number" data-theme="b" class='required'>
-            <label for="CharInt">Intelligence</label>
-            <input id="CharInt" name="CharInt" type="number" data-theme="b" class='required'>
-            <label for="CharWis">Wisdom</label>
-            <input id="CharWis" name="CharWis" type="number" data-theme="b" class='required'>
-            <label for="CharCha">Charisma</label>
-            <input id="CharCha" name="CharCha" type="number" data-theme="b" class='required'>
+            <label for="CharStr">Strength: Your character's physical prowess.</label>
+            <input data-theme="b" id="CharStr" name="CharStr" type="number"  class='required' placeholder="Enter a number.">
+            <label for="CharCon">Constitution: Your character's overall health.</label>
+            <input data-theme="b" id="CharCon" name="CharCon" type="number"  class='required' placeholder="Enter a number.">
+            <label for="CharDex">Dexterity: Your character's hand/eye coordination.</label>
+            <input data-theme="b" id="CharDex" name="CharDex" type="number"  class='required' placeholder="Enter a number.">
+            <label for="CharInt">Intelligence: Your character's knowledge.</label>
+            <input data-theme="b" id="CharInt" name="CharInt" type="number"  class='required' placeholder="Enter a number.">
+            <label for="CharWis">Wisdom: Your character's judgement.</label>
+            <input data-theme="b" id="CharWis" name="CharWis" type="number"  class='required' placeholder="Enter a number.">
+            <label for="CharCha">Charisma: Your character's physical appearance and charm.</label>
+            <input data-theme="b" id="CharCha" name="CharCha" type="number"  class='required' placeholder="Enter a number.">
         </fieldset>
 
-        <input type="submit" value="Save Sheet" data-inline="true" data-theme="a">
-        <input type="reset" value="Clear Sheet" data-inline="true" data-mini="true" data-theme="b">
+        <input type="submit" value="Save Sheet" data-inline="true" >
+        <input type="reset" value="Clear Sheet" data-inline="true" data-mini="true">
 </form>
     </div><!-- /content -->
 
@@ -397,7 +397,7 @@
 
         <!-- Call JavaScript file -->
         <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
-        <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+        <script src="js/jquery.mobile-1.3.0.js"></script>
         <script src="js/libs/jquery.validate.js"></script>
         <script src='js/main.js' type="text/javascript"></script>
 
